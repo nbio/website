@@ -4,7 +4,7 @@ layout: page.njk
 ---
 
 <a href="https://domainr.com" target="_blank">
-  <img src="/assets/domainr-logo.png" id="domainr" alt="Domainr logo" />
+  <img src="assets/domainr-logo.png" id="domainr" alt="Domainr logo" />
 </a>
 
 Your favorite domain search site, and API
