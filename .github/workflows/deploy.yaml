@@ -9,13 +9,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-
     steps:
       - name: Check out repo
         uses: actions/checkout@v5.0.0
@@ -48,5 +45,4 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main
           publish_dir: ./_site
