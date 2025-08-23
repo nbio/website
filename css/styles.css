@@ -42,9 +42,12 @@ nav [aria-current="page"] {
 }
 
 header,
-main,
 main > * + * {
     margin-top: var(--layout-spacing);
+}
+
+main {
+    margin-top: calc(2em + 25px);
 }
 
 body > footer {
