@@ -1,0 +1,11 @@
+version: 2
+
+updates:
+  # NodeJS
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "05:00"
+      timezone: "America/Los_Angeles"
