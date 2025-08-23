@@ -47,7 +47,7 @@ main > * + * {
 }
 
 main {
-    margin-top: calc(2em + 25px);
+    margin-top: calc(2em + 9px);
 }
 
 body > footer {
