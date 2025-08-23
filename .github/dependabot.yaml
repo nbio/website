@@ -9,3 +9,12 @@ updates:
       day: "saturday"
       time: "05:00"
       timezone: "America/Los_Angeles"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "05:00"
+      timezone: "America/Los_Angeles"
