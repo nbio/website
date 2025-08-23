@@ -1,0 +1,19 @@
+{
+  "name": "nb.io-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nbio/website",
+  "author": "Eric Case <case@users.noreply.github.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.4",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy --pathprefix=/website/",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
