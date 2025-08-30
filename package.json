@@ -10,7 +10,7 @@
     "node": ">=24.0.0"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy",
+    "build": "npx @11ty/eleventy --pathprefix=/website/",
     "start": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
